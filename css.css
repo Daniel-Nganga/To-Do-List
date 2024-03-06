@@ -1,0 +1,43 @@
+.list {
+  width: 50%;
+  height: auto;
+  box-shadow: 0.6px 0.5px 0.7px 1px gray;
+  align-items: center;
+  align-content: center;
+  outline: none;
+  margin: auto;
+}
+.list h2 {
+  font-size: 25px;
+  text-align: center;
+  font-weight: 600;
+  color: maroon;
+}
+
+.add-list {
+  display: flex;
+  margin: auto;
+  width: 95%;
+  height: auto;
+  outline: solid 1px black;
+  padding-bottom: 10px;
+}
+.add-list input {
+  width: 70%;
+  padding: 10px 10px;
+  margin: 10px 10px;
+}
+.add-list button {
+  width: 20%;
+  padding: 10px 10px;
+  margin: 10px 10px;
+}
+#itemList {
+  font-size: 20px;
+  width: auto;
+}
+
+.listItem-Order button {
+  margin: 10px 10px;
+  border-radius: 2px;
+}
